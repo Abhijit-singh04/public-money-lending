@@ -64,8 +64,8 @@ if (isset($_SESSION['log']) == "") {
 
                     <li class="menu-has-children"><a>Login</a>
                         <ul>
-                            <li><a href="login.php">Existing User</a></li>
-                            <li><a href="signup.php">New User</a></li>
+                            <li><a href="Login.php">Existing User</a></li>
+                            <li><a href="SignUp.php">New User</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -200,7 +200,7 @@ if (isset($_SESSION['log']) == "") {
 
                         <li class="menu-has-children"><a>Login</a>
                             <ul>
-                                <li><a href="login.php">Existing User</a></li>
+                                <li><a href="Login.php">Existing User</a></li>
                                 <li><a href="signin.php">New User</a></li>
                             </ul>
                         </li>
