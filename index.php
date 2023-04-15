@@ -263,7 +263,7 @@ Contact Section
                                     data-msg="Please write something for us" placeholder="Message"></textarea>
                                 <div class="validation"></div>
                             </div>
-                            <div class="text-center"><button type="submit">Send Message</button></div>
+                            <div class="text-center" ><button type="submit" onclick="myfunction()" >Send Message</button></div>
                         </form>
                     </div>
                 </div>
@@ -295,10 +295,15 @@ Footer
 
     <script src="contactform/contactform.js"></script>
 
-
+    <script>
+    function myfunction() {
+        alert("Thankyou! your response has been sent.");
+    }
+</script>
 </body>
 
 </html>
+
 
 
 <!-- light #d8f1ed -->

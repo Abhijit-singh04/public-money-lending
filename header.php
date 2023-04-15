@@ -13,7 +13,11 @@ if (isset($_SESSION['log']) == "") {
                 <!-- <a href="index.php"><img src="img/visudha.png" alt="Fin-Tech" -->
                         <!-- style="width: 100px;margin-top: 15px;vertical-align: middle;" /></img></a> -->
                 <!-- Uncomment below if you prefer to use a text image -->
-                <h1><a href="index.php">HACKATHON</a></h1>
+                <h1><a href="index.php">
+                    <img src="img/google.svg" alt="">
+                    <img src="img/gfg.svg" alt="">
+                    <img src="img/amd1.svg" alt="">
+                </a></h1>
             </div>
 
             <nav id="nav-menu-container">
