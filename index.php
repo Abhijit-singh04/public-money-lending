@@ -157,7 +157,7 @@ Team Section
             <div class="row">
                 <div class="col-md-3">
                     <div class="member">
-                        <div class="pic"><img src="img/team-1.jpg" alt=""></div>
+                        <div class="pic"><img src="img/ritika.jpeg" alt=""></div>
                         <h4>Ritika Pandey</h4>
                         <!-- <span>Chief Executive Officer</span> -->
                         <div class="social">
@@ -171,7 +171,7 @@ Team Section
 
                 <div class="col-md-3">
                     <div class="member">
-                        <div class="pic"><img src="img/team-2.jpg" alt=""></div>
+                        <div class="pic"><img src="img/abhi.jpeg" alt=""></div>
                         <h4>Abhijit singh</h4>
                         <!-- <span>Product Manager</span> -->
                         <div class="social">
@@ -185,7 +185,7 @@ Team Section
 
                 <div class="col-md-3">
                     <div class="member">
-                        <div class="pic"><img src="img/team-3.jpg" alt=""></div>
+                        <div class="pic"><img src="img/tanush.jpeg" alt=""></div>
                         <h4>C Tanush</h4>
                         <!-- <span>CTO</span> -->
                         <div class="social">
@@ -212,8 +212,7 @@ Contact Section
                 <div class="col-md-12">
                     <h3 class="section-title">Contact Us</h3>
                     <div class="section-title-divider"></div>
-                    <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                        accusantium doloremque</p>
+                    <p class="section-description">We'd love to hear from you! Please fill out the form below and we'll get back to you as soon as possible. Contact us for support, inquiries, or anything else you need.</p>
                 </div>
             </div>
 
@@ -222,17 +221,17 @@ Contact Section
                     <div class="info">
                         <div>
                             <i class="fa fa-map-marker"></i>
-                            <p>A108 Adam Street<br>New York, NY 535022</p>
+                            <p>Army Institute of Technology <br>Pune, IN 411015</p>
                         </div>
 
                         <div>
                             <i class="fa fa-envelope"></i>
-                            <p>info@example.com</p>
+                            <p>2001.abhijitsingh@gmail.com</p>
                         </div>
 
                         <div>
                             <i class="fa fa-phone"></i>
-                            <p>+1 5589 55488 55s</p>
+                            <p>+91 9983574628</p>
                         </div>
 
                     </div>

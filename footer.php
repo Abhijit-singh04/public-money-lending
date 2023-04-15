@@ -3,11 +3,11 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="copyright">
-                    &copy; Copyright <strong>Vidusha</strong>. All Rights Reserved
+                <strong>@Copyright</strong>. All Rights Reserved
                 </div>
                 <div class="credits">
 
-                    Developed by <a href="#">Fin-Tech</a>
+                    Developed by <a href="#">AIT Students</a>
                 </div>
             </div>
         </div>

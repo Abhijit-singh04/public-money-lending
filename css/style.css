@@ -14,7 +14,7 @@ body {
 }
 
 a {
-  color: #03C4EB;
+  color: #38d39f;
   transition: 0.5s;
 }
 
@@ -795,7 +795,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact .info i {
   font-size: 32px;
-  color: #03C4EB;
+  color: #38d39f;
   float: left;
 }
 
@@ -805,7 +805,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form #sendmessage {
-  color: #03C4EB;
+  color: #38d39f;
   border: 1px solid #03C4EB;
   display: none;
   text-align: center;
@@ -842,7 +842,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"] {
-  background: #03C4EB;
+  background: #38d39f;
   border: 0;
   padding: 10px 24px;
   color: #fff;
