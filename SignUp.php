@@ -101,7 +101,9 @@
 
     <div class="limiter">
         <div class="container-login100">
-            <div class="login100-more"></div>
+            <div class="login100-more">
+                <!-- <img src="img/money.jpg" alt=""> -->
+            </div>
 
             <div class="wrap-login100 p-l-50 p-r-50 p-t-72 p-b-50">
                 <form class="login100-form validate-form" method="post" action="register.php">

@@ -77,149 +77,163 @@ Header Section
     <!--==========================
 Services Section
 ============================-->
-<?php
-if (isset($_SESSION['log']) == "") {
-    ?>
-     <section id="services">
-        <div class="container wow fadeInUp"
-            style="visibility: visible;/* animation-name: fadeInUp; */display: flex;flex-direction: column;gap: 12px;">
-            <div class="row">
-                <div class="col-md-12">
-                    <h3 class="section-title">Our Services</h3>
-                    <div class="section-title-divider"></div>
-                    <p class="section-description">What all do we provide at Fin-Tech.</p>
+    <?php
+    if (isset($_SESSION['log']) == "") {
+        ?>
+        <section id="services">
+            <div class="container wow fadeInUp"
+                style="visibility: visible;/* animation-name: fadeInUp; */display: flex;flex-direction: column;gap: 12px;">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="section-title">Our Services</h3>
+                        <div class="section-title-divider"></div>
+                        <p class="section-description">What all do we provide at Fin-Tech.</p>
+                    </div>
                 </div>
-            </div>
 
-            <div class="row">
-                <div class="col-md-4 service-item card">
-                    <div class="service-icon"><i class="fa fa-desktop"></i></div>
-                    <h4 class="service-title"><a href="#" onclick="myfunction()">Peer2Peer Lending</a></h4>
-                    <p class="service-description">Voluptatum deleniti atque corrupti quos dolores et quas molestias
-                        excepturi sint occaecati cupiditate non provident</p>
-                </div>
-                <div class="col-md-4 service-item card">
-                    <div class="service-icon"><i class="fa fa-bar-chart"></i></div>
-                    <h4 class="service-title"><a href="#" onclick="myfunction()">Crowd-Funding</a></h4>
-                    <p class="service-description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                        aliquip ex ea commodo consequat tarad limino ata</p>
-                </div>
-                <div class="col-md-4 service-item card">
-                    <div class="service-icon"><i class="fa fa-paper-plane"></i></div>
-                    <h4 class="service-title"><<a href="#" onclick="myfunction()">Financial Advisory</a></h4>
-                    <p class="service-description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                        dolore eu fugiat nulla pariatur</p>
-                </div>
-                <div class="col-md-4 service-item card">
-                    <div class="service-icon"><i class="fa fa-photo"></i></div>
-                    <h4 class="service-title"><a href="#" onclick="myfunction()">Wealth Managment</a></h4>
-                    <p class="service-description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                        officia deserunt mollit anim id est laborum</p>
-                </div>
-                <div class="col-md-4 service-item card">
-                    <div class="service-icon"><i class="fa fa-road"></i></div>
-                    <h4 class="service-title"><a href="#" onclick="myfunction()">Alternative Asset-Management</a></h4>
-                    <p class="service-description">At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                        blanditiis praesentium voluptatum deleniti atque</p>
-                </div>
-            </div>
-        </div>
-    </section>
- <?php
-} else if ($_SESSION['log1'] == "user") {
-    ?>
-    <section id="services">
-        <div class="container wow fadeInUp"
-            style="visibility: visible;/* animation-name: fadeInUp; */display: flex;flex-direction: column;gap: 12px;">
-            <div class="row">
-                <div class="col-md-12">
-                    <h3 class="section-title">Our Services</h3>
-                    <div class="section-title-divider"></div>
-                    <p class="section-description">What all do we provide at Fin-Tech.</p>
+                <div class="row">
+                    <div class="col-md-4 service-item card" onclick="myfunction()">
+                        <div class="service-icon"><i class="fa fa-desktop"></i></div>
+                        <h4 class="service-title"><a href="#">Peer2Peer Lending</a></h4>
+                        <p class="service-description">Voluptatum deleniti atque corrupti quos dolores et quas molestias
+                            excepturi sint occaecati cupiditate non provident</p>
+                    </div>
+                    <div class="col-md-4 service-item card" onclick="myfunction()">
+                        <div class="service-icon"><i class="fa fa-bar-chart"></i></div>
+                        <h4 class="service-title"><a href="#">Crowd-Funding</a></h4>
+                        <p class="service-description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                            aliquip ex ea commodo consequat tarad limino ata</p>
+                    </div>
+                    <div class="col-md-4 service-item card" onclick="myfunction()">
+                        <div class="service-icon"><i class="fa fa-paper-plane"></i></div>
+                        <h4 class="service-title"><a href="#">Financial Advisory</a></h4>
+                        <p class="service-description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                            dolore eu fugiat nulla pariatur</p>
+                    </div>
+                    <div class="col-md-4 service-item card" onclick="myfunction()">
+                        <div class="service-icon"><i class="fa fa-photo"></i></div>
+                        <h4 class="service-title"><a href="#">Wealth Managment</a></h4>
+                        <p class="service-description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                            officia deserunt mollit anim id est laborum</p>
+                    </div>
+                    <div class="col-md-4 service-item card" onclick="myfunction()">
+                        <div class="service-icon"><i class="fa fa-road"></i></div>
+                        <h4 class="service-title"><a href="#">Alternative Asset-Management</a></h4>
+                        <p class="service-description">At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                            blanditiis praesentium voluptatum deleniti atque</p>
+                    </div>
                 </div>
             </div>
+        </section>
+        <?php
+    } else if ($_SESSION['log1'] == "user") {
+        ?>
+            <section id="services">
+                <div class="container wow fadeInUp"
+                    style="visibility: visible;/* animation-name: fadeInUp; */display: flex;flex-direction: column;gap: 12px;">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3 class="section-title">Our Services</h3>
+                            <div class="section-title-divider"></div>
+                            <p class="section-description">What all do we provide at Fin-Tech.</p>
+                        </div>
+                    </div>
 
-            <div class="row">
-                <div class="col-md-4 service-item card">
-                    <div class="service-icon"><i class="fa fa-desktop"></i></div>
-                    <h4 class="service-title"><a href="P2P.php">Peer2Peer Lending</a></h4>
-                    <p class="service-description">Voluptatum deleniti atque corrupti quos dolores et quas molestias
-                        excepturi sint occaecati cupiditate non provident</p>
-                </div>
-                <div class="col-md-4 service-item card">
-                    <div class="service-icon"><i class="fa fa-bar-chart"></i></div>
-                    <h4 class="service-title"><a href="Crowdfunding.php">Crowd-Funding</a></h4>
-                    <p class="service-description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                        aliquip ex ea commodo consequat tarad limino ata</p>
-                </div>
-                <div class="col-md-4 service-item card">
-                    <div class="service-icon"><i class="fa fa-paper-plane"></i></div>
-                    <h4 class="service-title"><a href="">Financial Advisory</a></h4>
-                    <p class="service-description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                        dolore eu fugiat nulla pariatur</p>
-                </div>
-                <div class="col-md-4 service-item card">
-                    <div class="service-icon"><i class="fa fa-photo"></i></div>
-                    <h4 class="service-title"><a href="mortage.php">Wealth Managment</a></h4>
-                    <p class="service-description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                        officia deserunt mollit anim id est laborum</p>
-                </div>
-                <div class="col-md-4 service-item card">
-                    <div class="service-icon"><i class="fa fa-road"></i></div>
-                    <h4 class="service-title"><a href="">Alternative Asset-Management</a></h4>
-                    <p class="service-description">At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                        blanditiis praesentium voluptatum deleniti atque</p>
-                </div>
-            </div>
-        </div>
-    </section>
-<?php } else{ ?>
-      <section id="services">
-        <div class="container wow fadeInUp"
-            style="visibility: visible;/* animation-name: fadeInUp; */display: flex;flex-direction: column;gap: 12px;">
-            <div class="row">
-                <div class="col-md-12">
-                    <h3 class="section-title">Our Services</h3>
-                    <div class="section-title-divider"></div>
-                    <p class="section-description">What all do we provide at Fin-Tech.</p>
-                </div>
-            </div>
+                    <div class="row">
+                        <a href="P2P.php">
+                            <div class="col-md-4 service-item card">
+                                <div class="service-icon"><i class="fa fa-desktop"></i></div>
+                                <h4 class="service-title"><a>Peer2Peer Lending</a></h4>
+                                <p class="service-description">Voluptatum deleniti atque corrupti quos dolores et quas molestias
+                                    excepturi sint occaecati cupiditate non provident</p>
+                            </div>
+                        </a>
+                        <a href="Crowdfunding.php">
+                            <div class="col-md-4 service-item card">
+                                <div class="service-icon"><i class="fa fa-bar-chart"></i></div>
+                                <h4 class="service-title"><a href="Crowdfunding.php">Crowd-Funding</a></h4>
+                                <p class="service-description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                    aliquip ex ea commodo consequat tarad limino ata</p>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="col-md-4 service-item card">
+                                <div class="service-icon"><i class="fa fa-paper-plane"></i></div>
+                                <h4 class="service-title"><a href="">Financial Advisory</a></h4>
+                                <p class="service-description">Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                    cillum
+                                    dolore eu fugiat nulla pariatur</p>
+                            </div>
+                        </a>
+                        <a href="mortage.php">
+                            <div class="col-md-4 service-item card">
+                                <div class="service-icon"><i class="fa fa-photo"></i></div>
+                                <h4 class="service-title"><a href="mortage.php">Wealth Managment</a></h4>
+                                <p class="service-description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                                    officia deserunt mollit anim id est laborum</p>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="col-md-4 service-item card">
+                                <div class="service-icon"><i class="fa fa-road"></i></div>
+                                <h4 class="service-title"><a href="">Alternative Asset-Management</a></h4>
+                                <p class="service-description">At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                                    blanditiis praesentium voluptatum deleniti atque</p>
+                            </div>
+                        </a>
 
-            <div class="row">
-                <div class="col-md-4 service-item card">
-                    <div class="service-icon"><i class="fa fa-desktop"></i></div>
-                    <h4 class="service-title"><a href="#" onclick="myfunction()">Peer2Peer Lending</a></h4>
-                    <p class="service-description">Voluptatum deleniti atque corrupti quos dolores et quas molestias
-                        excepturi sint occaecati cupiditate non provident</p>
+                    </div>
                 </div>
-                <div class="col-md-4 service-item card">
-                    <div class="service-icon"><i class="fa fa-bar-chart"></i></div>
-                    <h4 class="service-title"><a href="#" onclick="myfunction()">Crowd-Funding</a></h4>
-                    <p class="service-description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                        aliquip ex ea commodo consequat tarad limino ata</p>
+            </section>
+    <?php } else { ?>
+            <section id="services">
+                <div class="container wow fadeInUp"
+                    style="visibility: visible;/* animation-name: fadeInUp; */display: flex;flex-direction: column;gap: 12px;">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3 class="section-title">Our Services</h3>
+                            <div class="section-title-divider"></div>
+                            <p class="section-description">What all do we provide at Fin-Tech.</p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-4 service-item card">
+                            <div class="service-icon"><i class="fa fa-desktop"></i></div>
+                            <h4 class="service-title"><a href="#" onclick="myfunction()">Peer2Peer Lending</a></h4>
+                            <p class="service-description">Voluptatum deleniti atque corrupti quos dolores et quas molestias
+                                excepturi sint occaecati cupiditate non provident</p>
+                        </div>
+                        <div class="col-md-4 service-item card">
+                            <div class="service-icon"><i class="fa fa-bar-chart"></i></div>
+                            <h4 class="service-title"><a href="#" onclick="myfunction()">Crowd-Funding</a></h4>
+                            <p class="service-description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                aliquip ex ea commodo consequat tarad limino ata</p>
+                        </div>
+                        <div class="col-md-4 service-item card">
+                            <div class="service-icon"><i class="fa fa-paper-plane"></i></div>
+                            <h4 class="service-title">
+                                <<a href="#" onclick="myfunction()">Financial Advisory</a>
+                            </h4>
+                            <p class="service-description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                                dolore eu fugiat nulla pariatur</p>
+                        </div>
+                        <div class="col-md-4 service-item card">
+                            <div class="service-icon"><i class="fa fa-photo"></i></div>
+                            <h4 class="service-title"><a href="#" onclick="myfunction()">Wealth Managment</a></h4>
+                            <p class="service-description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                                officia deserunt mollit anim id est laborum</p>
+                        </div>
+                        <div class="col-md-4 service-item card">
+                            <div class="service-icon"><i class="fa fa-road"></i></div>
+                            <h4 class="service-title"><a href="#" onclick="myfunction()">Alternative Asset-Management</a></h4>
+                            <p class="service-description">At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                                blanditiis praesentium voluptatum deleniti atque</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-4 service-item card">
-                    <div class="service-icon"><i class="fa fa-paper-plane"></i></div>
-                    <h4 class="service-title"><<a href="#" onclick="myfunction()">Financial Advisory</a></h4>
-                    <p class="service-description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                        dolore eu fugiat nulla pariatur</p>
-                </div>
-                <div class="col-md-4 service-item card">
-                    <div class="service-icon"><i class="fa fa-photo"></i></div>
-                    <h4 class="service-title"><a href="#" onclick="myfunction()">Wealth Managment</a></h4>
-                    <p class="service-description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                        officia deserunt mollit anim id est laborum</p>
-                </div>
-                <div class="col-md-4 service-item card">
-                    <div class="service-icon"><i class="fa fa-road"></i></div>
-                    <h4 class="service-title"><a href="#" onclick="myfunction()">Alternative Asset-Management</a></h4>
-                    <p class="service-description">At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                        blanditiis praesentium voluptatum deleniti atque</p>
-                </div>
-            </div>
-        </div>
-    </section>
-  <?php } ?>
+            </section>
+    <?php } ?>
     <!--==========================
 Subscrbe Section
 ============================-->
@@ -309,7 +323,9 @@ Contact Section
                 <div class="col-md-12">
                     <h3 class="section-title">Contact Us</h3>
                     <div class="section-title-divider"></div>
-                    <p class="section-description">We'd love to hear from you! Please fill out the form below and we'll get back to you as soon as possible. Contact us for support, inquiries, or anything else you need.</p>
+                    <p class="section-description">We'd love to hear from you! Please fill out the form below and we'll
+                        get back to you as soon as possible. Contact us for support, inquiries, or anything else you
+                        need.</p>
                 </div>
             </div>
 
@@ -360,7 +376,8 @@ Contact Section
                                     data-msg="Please write something for us" placeholder="Message"></textarea>
                                 <div class="validation"></div>
                             </div>
-                            <div class="text-center" ><button type="submit" onclick="myfunction()" >Send Message</button></div>
+                            <div class="text-center"><button type="submit" onclick="myfunction1()">Send Message</button>
+                            </div>
                         </form>
                     </div>
                 </div>
@@ -393,10 +410,14 @@ Footer
     <script src="contactform/contactform.js"></script>
 
     <script>
-    function myfunction() {
-        alert("Please! Login First.");
-    }
-</script>
+        function myfunction() {
+            alert("Please! Login First.");
+        }
+
+        function myfunction1() {
+            alert("Thankyou! your feedback has been sent.");
+        }
+    </script>
 </body>
 
 </html>
