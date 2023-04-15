@@ -2,8 +2,8 @@
 include('config.php');
 $name = htmlspecialchars(ucfirst($_POST['name']), ENT_QUOTES, 'UTF-8');
 $email = htmlspecialchars($_POST['email'], ENT_QUOTES, 'UTF-8');
-$passwrd = base64_encode($_POST['pass']);
-$repasswrd = base64_encode($_POST['repass']);
+$passwrd =$_POST['pass'];
+$repasswrd = $_POST['repass'];
 $contact = htmlspecialchars($_POST['contact'], ENT_QUOTES, 'UTF-8');
 $qry = mysqli_query($con, "SELECT * FROM user WHERE email='$email' ");
 $qry1 = mysqli_num_rows($qry);

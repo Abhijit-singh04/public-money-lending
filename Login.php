@@ -62,7 +62,7 @@
                         Sign In
                     </span>
                     <!-- <span class="login100-form-title p-b-53">Create account</span> -->
-                <span class="login100-form-title" style="color:#38d39f;">Let’s connect again!</span>
+                    <span class="login100-form-title" style="color:#38d39f;">Let’s connect again!</span>
 
                     <div class="p-t-31 p-b-9">
                         <span class="txt1">
