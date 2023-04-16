@@ -26,7 +26,7 @@ if ($sql) {
 ?>
     <script>
         alert("Money unable to add!");
-        window.location.href = "dashboard.php";
+        window.location.href = "http://34.126.215.157/public-money-lending/dashboard.php";
     </script>
 <?php
 }
