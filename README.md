@@ -1,4 +1,4 @@
-# Peer_to_Peer Public-money-lending
+# Public-money-lending
 
 ## Problem Statement :
 
