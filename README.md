@@ -17,7 +17,7 @@ The peer-to-peer money lending web application developed using the Tech stack (P
 
 ## Team Members:
   * Ritika Pandey
-  * Abhijit Singh
+  * Abhijit singh
   * Tanush C
 ## Tech Stack Used:
    * Frontend :
