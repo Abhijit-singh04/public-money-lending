@@ -20,14 +20,14 @@ if ($row['balance'] >= $amt) {
 ?>
         <script>
             alert("Money Transfered Successfully!");
-            window.location.href = "dashboard.php";
+            window.location.href = "Dashboard.php";
         </script>
     <?php
     } else {
     ?>
         <script>
             alert("Money unable to Transfer!");
-            window.location.href = "dashboard.php";
+            window.location.href = "Dashboard.php";
         </script>
     <?php
     }
@@ -35,7 +35,7 @@ if ($row['balance'] >= $amt) {
     ?>
     <script>
         alert("Add Money to wallet first");
-        window.location.href = "dashboard.php";
+        window.location.href = "Dashboard.php";
     </script>
 <?php
 }

@@ -19,14 +19,14 @@ if ($sql) {
 ?>
     <script>
         alert("Money Added Successfully!");
-        window.location.href = "dashboard.php";
+        window.location.href = "Dashboard.php";
     </script>
 <?php
 } else {
 ?>
     <script>
         alert("Money unable to add!");
-        window.location.href = "http://34.126.215.157/public-money-lending/dashboard.php";
+        window.location.href = "Dashboard.php";
     </script>
 <?php
 }

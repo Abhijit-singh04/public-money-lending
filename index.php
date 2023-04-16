@@ -95,32 +95,27 @@ Services Section
                     <div class="col-md-4 service-item card" onclick="myfunction()">
                         <div class="service-icon"><i class="fa fa-desktop"></i></div>
                         <h4 class="service-title"><a href="#">Peer2Peer Lending</a></h4>
-                        <p class="service-description">Voluptatum deleniti atque corrupti quos dolores et quas molestias
-                            excepturi sint occaecati cupiditate non provident</p>
+                        <p class="service-description">Peer-to-peer (P2P) money lending and borrowing is a financial model that allows individuals to lend and borrow money directly from one another.</p>
                     </div>
                     <div class="col-md-4 service-item card" onclick="myfunction()">
                         <div class="service-icon"><i class="fa fa-bar-chart"></i></div>
                         <h4 class="service-title"><a href="#">Crowd-Funding</a></h4>
-                        <p class="service-description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                            aliquip ex ea commodo consequat tarad limino ata</p>
+                        <p class="service-description">Crowd-Funding is a financial model that allows individuals to pitch their idea to the crowd for investment.</p>
                     </div>
                     <div class="col-md-4 service-item card" onclick="myfunction()">
                         <div class="service-icon"><i class="fa fa-paper-plane"></i></div>
                         <h4 class="service-title"><a href="#">Financial Advisory</a></h4>
-                        <p class="service-description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                            dolore eu fugiat nulla pariatur</p>
+                        <p class="service-description">It refers to the process of providing professional guidance and advice on financial matters such as investments, insurance, and retirement planning.</p>
                     </div>
                     <div class="col-md-4 service-item card" onclick="myfunction()">
                         <div class="service-icon"><i class="fa fa-photo"></i></div>
                         <h4 class="service-title"><a href="#">Wealth Managment</a></h4>
-                        <p class="service-description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                            officia deserunt mollit anim id est laborum</p>
+                        <p class="service-description">Wealth management refers to the process of managing an individual's financial assets and investments to achieve their financial goals.</p>
                     </div>
                     <div class="col-md-4 service-item card" onclick="myfunction()">
                         <div class="service-icon"><i class="fa fa-road"></i></div>
                         <h4 class="service-title"><a href="#">Alternative Asset-Management</a></h4>
-                        <p class="service-description">At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                            blanditiis praesentium voluptatum deleniti atque</p>
+                        <p class="service-description">It involves investing in non-traditional assets for higher returns. Providing tools and resources helps investors understand risks and rewards.</p>
                     </div>
                 </div>
             </div>
@@ -144,41 +139,35 @@ Services Section
                             <div class="col-md-4 service-item card">
                                 <div class="service-icon"><i class="fa fa-desktop"></i></div>
                                 <h4 class="service-title"><a>Peer2Peer Lending</a></h4>
-                                <p class="service-description">Voluptatum deleniti atque corrupti quos dolores et quas molestias
-                                    excepturi sint occaecati cupiditate non provident</p>
+                                <p class="service-description">Peer-to-peer (P2P) money lending and borrowing is a financial model that allows individuals to lend and borrow money directly from one another.</p>
                             </div>
                         </a>
                         <a href="Crowdfunding.php">
                             <div class="col-md-4 service-item card">
                                 <div class="service-icon"><i class="fa fa-bar-chart"></i></div>
                                 <h4 class="service-title"><a href="Crowdfunding.php">Crowd-Funding</a></h4>
-                                <p class="service-description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                    aliquip ex ea commodo consequat tarad limino ata</p>
+                                <p class="service-description">Crowd-Funding is a financial model that allows individuals to pitch their idea to the crowd for investment.</p>
                             </div>
                         </a>
                         <a href="">
                             <div class="col-md-4 service-item card">
                                 <div class="service-icon"><i class="fa fa-paper-plane"></i></div>
                                 <h4 class="service-title"><a href="">Financial Advisory</a></h4>
-                                <p class="service-description">Duis aute irure dolor in reprehenderit in voluptate velit esse
-                                    cillum
-                                    dolore eu fugiat nulla pariatur</p>
+                                <p class="service-description">It refers to the process of providing professional guidance and advice on financial matters such as investments, insurance, and retirement planning.</p>
                             </div>
                         </a>
                         <a href="mortage.php">
                             <div class="col-md-4 service-item card">
                                 <div class="service-icon"><i class="fa fa-photo"></i></div>
                                 <h4 class="service-title"><a href="mortage.php">Wealth Managment</a></h4>
-                                <p class="service-description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                                    officia deserunt mollit anim id est laborum</p>
+                                <p class="service-description">Wealth management refers to the process of managing an individual's financial assets and investments to achieve their financial goals.</p>
                             </div>
                         </a>
                         <a href="">
                             <div class="col-md-4 service-item card">
                                 <div class="service-icon"><i class="fa fa-road"></i></div>
                                 <h4 class="service-title"><a href="">Alternative Asset-Management</a></h4>
-                                <p class="service-description">At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                                    blanditiis praesentium voluptatum deleniti atque</p>
+                                <p class="service-description">It involves investing in non-traditional assets for higher returns. Providing tools and resources helps investors understand risks and rewards.</p>
                             </div>
                         </a>
 
@@ -201,34 +190,29 @@ Services Section
                         <div class="col-md-4 service-item card">
                             <div class="service-icon"><i class="fa fa-desktop"></i></div>
                             <h4 class="service-title"><a href="#" onclick="myfunction()">Peer2Peer Lending</a></h4>
-                            <p class="service-description">Voluptatum deleniti atque corrupti quos dolores et quas molestias
-                                excepturi sint occaecati cupiditate non provident</p>
+                            <p class="service-description">Peer-to-peer (P2P) money lending and borrowing is a financial model that allows individuals to lend and borrow money directly from one another.</p>
                         </div>
                         <div class="col-md-4 service-item card">
                             <div class="service-icon"><i class="fa fa-bar-chart"></i></div>
                             <h4 class="service-title"><a href="#" onclick="myfunction()">Crowd-Funding</a></h4>
-                            <p class="service-description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                aliquip ex ea commodo consequat tarad limino ata</p>
+                            <p class="service-description">Crowd-Funding is a financial model that allows individuals to pitch their idea to the crowd for investment.</p>
                         </div>
                         <div class="col-md-4 service-item card">
                             <div class="service-icon"><i class="fa fa-paper-plane"></i></div>
                             <h4 class="service-title">
                                 <<a href="#" onclick="myfunction()">Financial Advisory</a>
                             </h4>
-                            <p class="service-description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                                dolore eu fugiat nulla pariatur</p>
+                            <p class="service-description">It refers to the process of providing professional guidance and advice on financial matters such as investments, insurance, and retirement planning.</p>
                         </div>
                         <div class="col-md-4 service-item card">
                             <div class="service-icon"><i class="fa fa-photo"></i></div>
                             <h4 class="service-title"><a href="#" onclick="myfunction()">Wealth Managment</a></h4>
-                            <p class="service-description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                                officia deserunt mollit anim id est laborum</p>
+                            <p class="service-description">Wealth management refers to the process of managing an individual's financial assets and investments to achieve their financial goals.</p>
                         </div>
                         <div class="col-md-4 service-item card">
                             <div class="service-icon"><i class="fa fa-road"></i></div>
                             <h4 class="service-title"><a href="#" onclick="myfunction()">Alternative Asset-Management</a></h4>
-                            <p class="service-description">At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                                blanditiis praesentium voluptatum deleniti atque</p>
+                            <p class="service-description">It involves investing in non-traditional assets for higher returns. Providing tools and resources helps investors understand risks and rewards.</p>
                         </div>
                     </div>
                 </div>
