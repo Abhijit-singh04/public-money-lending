@@ -6,6 +6,8 @@
 
 ## Problem Statement :
 
+
+
 Traditional financial institutions often have stringent requirements for loan approvals, making it difficult for individuals with low credit scores or limited financial history to obtain loans. Additionally, these institutions may charge high-interest rates and fees, further limiting access to affordable credit. This project aims to address this issue by creating a peer-to-peer money lending platform that connects borrowers with lenders directly, without the need for intermediaries, providing fair and affordable access to credit for all.
 
 ## Solution :
