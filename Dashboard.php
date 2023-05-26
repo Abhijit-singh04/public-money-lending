@@ -124,7 +124,7 @@ include('sessioncheck.php');
                                         </div>
                                     </div>
                                     <div class="form-bottom">
-                                        <form role="form" action="addwallet.php" method="post" class="login-form">
+                                        <form role="form" action="pay.php" method="post" class="login-form">
                                             <div class="form-group">
                                                 <label class="sr-only" for="form-number">number</label>
                                                 <input type="number" name="amount"

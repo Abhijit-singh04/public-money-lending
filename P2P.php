@@ -81,7 +81,7 @@ include('sessioncheck.php');
                 if ($rows['logo'] == "")
                     $picture = "img/user.png";
                 else
-                    $picture = $rows['logo'];
+                    $picture = $sql1['profilepic'];
                 ?>
                 <div class="container">
                     <div class="row">

@@ -12,10 +12,11 @@ $file = 'count.txt';
 $uniq = file_get_contents($file);
 //add +1
 $uid = $uniq + 1;
+$prfimg = "uploads/".strtolower($name).".jpeg"; 
 // add that new value to text file again for next use
 file_put_contents($file, $uid);
 if ($qry1 == 0 and $passwrd == $repasswrd) {
-    $sql = mysqli_query($con, "INSERT INTO user (name, email, password, contact, uid) VALUES ('$name', '$email', '$passwrd', '$contact' ,'$uid') ") or die(mysqli_error($con));
+    $sql = mysqli_query($con, "INSERT INTO user (name, email, password, contact, uid,profilepic) VALUES ('$name', '$email', '$passwrd', '$contact' ,'$uid','$prfimg') ") or die(mysqli_error($con));
     $sql1 = mysqli_query($con, "INSERT INTO wallet (useruid, balance) VALUES ('$uid','0') ") or die(mysqli_error($con));
     $qry = mysqli_query($con, "SELECT * FROM user WHERE email='$email' and password='$passwrd' ") or die(mysqli_error($con));
     session_start();

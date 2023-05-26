@@ -19,7 +19,7 @@ $row = mysqli_query($con, "SELECT * FROM wallet WHERE useruid=$useruid ");
 $row1 = mysqli_fetch_array($row);
 $balance = $row1['balance'];
 if ($amount <= $balance) {
-    $qry5 = mysqli_query($con, "INSERT INTO transaction (useruid, amount, type, transuid, balance) VALUES ($useruid, $amount, 'credit', $transuid, $balance) ");
+    $qry5 = mysqli_query($con, "INSERT INTO transaction (useruid, amount, type, transuid, balance) VALUES ($useruid, $amount, 'debit', $transuid, $balance) ");
     $balance -= $amount;
     $qry6 = mysqli_query($con, "UPDATE wallet SET balance=$balance WHERE useruid=$useruid ");
     $qry = mysqli_query($con, "INSERT INTO invest (amount, useruid, borrowuid, investuid) VALUES ($amount, $useruid, $borrowuid, $uid) ") or die(mysqli_error($con));

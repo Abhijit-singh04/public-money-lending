@@ -106,6 +106,13 @@
             </div>
 
             <div class="wrap-login100 p-l-50 p-r-50 p-t-72 p-b-50">
+			  
+                
+                <form action="upload.php" method="post" enctype="multipart/form-data"id="sav">
+		</form>
+
+                
+                
                 <form class="login100-form validate-form" method="post" action="register.php">
                     <span class="login100-form-title p-b-59">
                         Sign Up
@@ -128,6 +135,14 @@
                         <input class="input100" type="text" name="contact" placeholder="Mobile no....">
                         <span class="focus-input100"></span>
                     </div>
+                    
+                    <div class="wrap-input100 validate-input" data-validate="Image is required">
+                        <span class="label-input100">Select image to upload(Image Name Should be same as profile Name):</span>
+                        
+		<input type="file" name="fileToUpload" id="fileToUpload" form='sav'>
+		<input type="submit" value="Upload Image" name="submit" form='sav'>
+                        <span class="focus-input100"></span>
+                    </div>
 
                     <div class="wrap-input100 validate-input" data-validate="Password is required">
                         <span class="label-input100">Password</span>
@@ -140,7 +155,7 @@
                         <input class="input100" type="password" name="repass" placeholder="*************">
                         <span class="focus-input100"></span>
                     </div>
-
+                      
                     <div class="flex-m w-full p-b-33">
                         <div class="contact100-form-checkbox">
                             <input class="input-checkbox100" id="ckb1" type="checkbox" name="remember-me">
