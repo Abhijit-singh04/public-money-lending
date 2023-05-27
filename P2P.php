@@ -142,6 +142,7 @@ include('sessioncheck.php');
                                                     <option value="<?php echo (5 * $rows['part']); ?>"><?php echo (5 * $rows['part']); ?></option>
                                                 </select>
                                                 <input type="hidden" name="borrowuid" value=<?php echo $rows['borrowuid']; ?>>
+                                                 <input type="hidden" name="useruid" value=<?php echo $rows['useruid']; ?>>
                                                 <span class="focus-input100"></span>
                                                 <button class="btn btn-primary lft">Invest</button>
                                             </form>

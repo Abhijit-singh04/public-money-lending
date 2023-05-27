@@ -131,6 +131,8 @@ include('sessioncheck.php');
                                                     <input type="hidden" name="borrowuid"
                                                         value="<?php echo $rows['borrowuid']; ?>">
                                                     <span class="focus-input100"></span>
+                                                    <input type="hidden" name="useruid"
+                                                        value="<?php echo $rows['useruid']; ?>">
                                                     <!-- </div> -->
                                                     <!-- <button type="submit" style="background: transparent; border: none;"><a
                                                             href="#" class="btn btn-primary">Invest</a></button> -->
