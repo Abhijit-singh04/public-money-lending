@@ -41,7 +41,7 @@ if (isset($_SESSION['log']) == "") {
                     <li class="menu-has-children"><a>Financial Advisory</a>
                         <ul>
                             <li><a href="#"></a>Trending</li>
-                            <li><a href="#">P2P Landscape</a></li>
+                            <li><a href="p2pLandscape.php">P2P Landscape</a></li>
                             <li><a href="#">Fair Advice</a></li>
                             <li><a href="#">Media Centre</a></li>
                         </ul>
@@ -112,7 +112,7 @@ if (isset($_SESSION['log']) == "") {
                         <li class="menu-has-children"><a>Financial Advisory</a>
                             <ul>
                                 <li><a href="#"></a>Trending</li>
-                                <li><a href="#">P2P Landscape</a></li>
+                                <li><a href="p2pLandscagit pullpe.php">P2P Landscape</a></li>
                                 <li><a href="#">Fair Advice</a></li>
                                 <li><a href="#">Media Centre</a></li>
                             </ul>

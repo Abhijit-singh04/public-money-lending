@@ -84,9 +84,9 @@ include('sessioncheck.php');
                     $picture = $sql1['profilepic'];
                 ?>
                 <div class="container">
-                    <div class="row">
-                        <div class="lend-box">
-                            <div class="panel panel-info" style=" height: 213px;">
+                    <div class="row colflx">
+                        <div class="lend-box lend-box-2">
+                            <div class="panel panel-info panel-2" >
                                 <div class="panel-heading">
                                     <h3 class="panel-title">
                                         <?php echo $sql1['name']; ?>
@@ -97,7 +97,7 @@ include('sessioncheck.php');
                                     <div class="col-md-3 col-lg-3 " style="width: 153px;" align="center"> <img alt="User Pic"
                                             src="<?php echo $picture; ?>" class="img-circle img-responsive"> </div>
 
-                                    <div class=" col-md-9 col-lg-9 " style=" display: flex; width: 84%;"  >
+                                    <div class=" col-md-9 col-lg-9 colflx" style=" display: flex; width: 84%;"  >
                                         <table class="table table-user-information">
                                             <tbody style="  ">
                                                 <tr>
@@ -143,7 +143,7 @@ include('sessioncheck.php');
                                                 </select>
                                                 <input type="hidden" name="borrowuid" value=<?php echo $rows['borrowuid']; ?>>
                                                 <span class="focus-input100"></span>
-                                                <button class="btn btn-primary">Invest</button>
+                                                <button class="btn btn-primary lft">Invest</button>
                                             </form>
                                         </div>
 

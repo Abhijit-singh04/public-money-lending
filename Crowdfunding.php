@@ -84,8 +84,8 @@ include('sessioncheck.php');
                 ?>
                 <div class="container">
                     <div class="row">
-                        <div class="lend-box">
-                            <div class="panel panel-info" style=" height: 213px;">
+                        <div class="lend-box lend-box-1">
+                            <div class="panel panel-info panel-1">
                                 <div class="panel-heading">
                                     <h3 class="panel-title">
                                         <?php echo $sql1['name']; ?>
@@ -134,7 +134,7 @@ include('sessioncheck.php');
                                                     <!-- </div> -->
                                                     <!-- <button type="submit" style="background: transparent; border: none;"><a
                                                             href="#" class="btn btn-primary">Invest</a></button> -->
-                                                    <button class="btn btn-primary bpri">Invest</button>
+                                                    <button class="btn btn-primary bpri bpri-1">Invest</button>
                                                 </form>
                                             </div>
                                         </div>
