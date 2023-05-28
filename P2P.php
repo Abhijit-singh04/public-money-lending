@@ -81,7 +81,7 @@ include('sessioncheck.php');
                 if ($rows['logo'] == "")
                     $picture = "img/user.png";
                 else
-                    $picture = $sql1['profilepic'];
+                    $picture = "uploads/google.jpg";
                 ?>
                 <div class="container">
                     <div class="row colflx">

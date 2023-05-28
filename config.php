@@ -10,6 +10,6 @@ $displayCurrency = 'INR';
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
-$con = mysqli_connect("localhost", "root", "", "project") or die(mysqli_error($con));
+$con = mysqli_connect("localhost:8111", "root", "", "project") or die(mysqli_error($con));
 
 
