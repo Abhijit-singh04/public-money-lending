@@ -72,7 +72,7 @@ include('sessioncheck.php');
         <div class="container-box ">
             <?php
             $useruid = $_SESSION['log']['uid'];
-            $qry = mysqli_query($con, "SELECT * FROM borrowcrowd WHERE useruid!=$useruid and amount!=collect ");
+            $qry = mysqli_query($con, "SELECT * FROM borrowcrowd WHERE useruid!=$useruid and amount >collect ORDER BY category ");
             while ($rows = mysqli_fetch_array($qry)) {
                 $useruid = $rows['useruid'];
                 $sql = mysqli_query($con, "SELECT * FROM user WHERE uid=$useruid ") or die(mysqli_error($con));

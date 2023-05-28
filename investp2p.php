@@ -23,7 +23,19 @@ $balance = $row1['balance'];
 $row2 = mysqli_query($con, "SELECT * FROM wallet WHERE useruid=$takeuid ");
 $row3 = mysqli_fetch_array($row2);
 $balance1 = $row3['balance'];
-if ($amount <= $balance) {
+$row4 = mysqli_query($con, "SELECT * FROM invest WHERE useruid=$takeuid ");
+$row5 = mysqli_fetch_array($row4);
+$collect = $row5['collect'];
+$amount2 = $row5['amount'];
+if($amount > ($amount2 - $collect)){
+    ?>
+    <script>
+        alert("Your are Investing More Than Required!");
+        window.location.href = "P2P.php";
+    </script>
+    <?php
+}
+else if ($amount <= $balance) {
     $qry5 = mysqli_query($con, "INSERT INTO transaction (useruid, amount, type, transuid, balance) VALUES ($useruid, $amount, 'debit', $transuid, $balance) ");
     $balance -= $amount;
     $qry6 = mysqli_query($con, "UPDATE wallet SET balance=$balance WHERE useruid=$useruid ");

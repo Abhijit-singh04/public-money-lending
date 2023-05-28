@@ -118,13 +118,13 @@ include('sessioncheck.php');
 
                     <div class="wrap-input101 validate-input" data-validate="Title is required">
                         <span class="label-input100">Title</span>
-                        <input class="input100" type="text" name="title" placeholder="Title...">
+                        <input class="input100" type="text" name="title" placeholder="Title..." required>
                         <span class="focus-input100"></span>
                     </div>
 
                     <div class="wrap-input101 validate-input" data-validate="Category is required">
                         <span class="label-input100">Category</span>
-                        <select class="input100" name="category">
+                        <select class="input100" name="category" required>
                             <option>Select</option>
                             <option value="1">1</option>
                             <option value="2">2</option>
@@ -134,21 +134,21 @@ include('sessioncheck.php');
                         <span class="focus-input100"></span>
                     </div>
 
-                    <div class="wrap-input101 validate-input" data-validate="Description is required">
+                    <div class="wrap-input101 validate-input" data-validate="Description is required" >
                         <span class="label-input100">Description</span>
-                        <input class="input100" type="text" name="descrip" placeholder="Description...">
+                        <input class="input100" type="text" name="descrip" placeholder="Description..."required>
                         <span class="focus-input100"></span>
                     </div>
 
                     <div class="wrap-input101 validate-input" data-validate="Amount is required">
                         <span class="label-input100">Amount Needed</span>
-                        <input class="input100" type="text" name="amt" placeholder="in Indian Currency">
+                        <input class="input100" type="text" name="amt" placeholder="in Indian Currency"required>
                         <span class="focus-input100"></span>
                     </div>
 
                     <div class="wrap-input101 validate-input" data-validate="Time is required">
                         <span class="label-input100">Select time to reach</span>
-                        <select class="input100" name="time">
+                        <select class="input100" name="time" required>
                             <option>Select</option>
                             <option value="7">1 Week</option>
                             <option value="14">2 Weeks</option>

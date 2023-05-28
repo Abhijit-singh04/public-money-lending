@@ -73,7 +73,7 @@ include('sessioncheck.php');
         <div class="container-box ">
             <?php
             $useruid = $_SESSION['log']['uid'];
-            $qry = mysqli_query($con, " SELECT * FROM borrow WHERE useruid!='$useruid' and amount!=collect ");
+            $qry = mysqli_query($con, " SELECT * FROM borrow WHERE useruid!='$useruid' and amount >collect ORDER BY category ");
             while ($rows = mysqli_fetch_array($qry)) {
                 $useruid = $rows['useruid'];
                 $sql = mysqli_query($con, "SELECT * FROM user WHERE uid='$useruid' ") or die(mysqli_error($con));
@@ -133,14 +133,9 @@ include('sessioncheck.php');
                                         </table>
                                         <div class="wrap-input100 validate-input">
                                             <form method="post" action="investp2p.php">
-                                                <select class="input100" name="amount">
-                                                    <option>Select Amount to pay</option>
-                                                    <option value="<?php echo (1 * $rows['part']); ?>"><?php echo (1 * $rows['part']); ?></option>
-                                                    <option value="<?php echo (2 * $rows['part']); ?>"><?php echo (2 * $rows['part']); ?></option>
-                                                    <option value="<?php echo (3 * $rows['part']); ?>"><?php echo (3 * $rows['part']); ?></option>
-                                                    <option value="<?php echo (4 * $rows['part']); ?>"><?php echo (4 * $rows['part']); ?></option>
-                                                    <option value="<?php echo (5 * $rows['part']); ?>"><?php echo (5 * $rows['part']); ?></option>
-                                                </select>
+                                                <input type="number" name="amount" class="input100" placeholder="Enter Amount" >
+                                               
+                                                
                                                 <input type="hidden" name="borrowuid" value=<?php echo $rows['borrowuid']; ?>>
                                                  <input type="hidden" name="useruid" value=<?php echo $rows['useruid']; ?>>
                                                 <span class="focus-input100"></span>

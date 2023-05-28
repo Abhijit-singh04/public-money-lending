@@ -116,13 +116,13 @@ include('sessioncheck.php');
 
                     <div class="wrap-input101 validate-input" data-validate="Title is required">
                         <span class="label-input100">Title</span>
-                        <input class="input100" type="text" name="title" placeholder="Title...">
+                        <input class="input100" type="text" name="title" placeholder="Title..." required>
                         <span class="focus-input100"></span>
                     </div>
 
                     <div class="wrap-input101 validate-input" data-validate="Category is required">
                         <span class="label-input100">Category</span>
-                        <select class="input100" name="category">
+                        <select class="input100" name="category" required>
                             <option>Select</option>
                             <option value="1">1</option>
                             <option value="2">2</option>
@@ -134,19 +134,19 @@ include('sessioncheck.php');
 
                     <div class="wrap-input101 validate-input" data-validate="Description is required">
                         <span class="label-input100">Description</span>
-                        <input class="input100" type="text" name="descrip" placeholder="Description...">
+                        <input class="input100" type="text" name="descrip" placeholder="Description..." required>
                         <span class="focus-input100"></span>
                     </div>
 
                     <div class="wrap-input101 validate-input" data-validate="Amount is required">
                         <span class="label-input100">Amount Needed</span>
-                        <input class="input100" type="number" name="amount" placeholder="in Indian Currency">
+                        <input class="input100" type="number" name="amount" placeholder="in Indian Currency" required>
                         <span class="focus-input100"></span>
                     </div>
 
                     <div class="wrap-input101 validate-input" data-validate="Picture is required">
                         <span class="label-input100">Picture</span>
-                        <input class="input100" type="file" name="img">
+                        <input class="input100" type="file" name="img" required>
                         <span class="focus-input100"></span>
                     </div>
 
